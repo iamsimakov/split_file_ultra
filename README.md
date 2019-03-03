@@ -1,4 +1,4 @@
-# File Rotator
+# Split File Ultra
 
 ## Usage
 
@@ -18,10 +18,11 @@ or for IRB
 
 2. And use it:
 
-        > SplitFileUltra.split(original)
+        > SplitFileUltra.split(original, 1024*1024)
 
 where
 `original` - name of spliting file
+`1024*1024` - size of chunk, optional, default = 1024*1024 bytes
 
 Returns array of files.
 
